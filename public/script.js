@@ -1,6 +1,10 @@
 // Firebase Init
-firebase.initializeApp(window.firebaseConfig);
-const db = firebase.firestore();
+if (window.firebaseConfig) {
+  firebase.initializeApp(window.firebaseConfig);
+} else {
+  console.error("Firebase configuration not found! Please ensure firebase-config.js is loaded correctly.");
+}
+const db = typeof firebase !== 'undefined' ? firebase.firestore() : null;
 
 // ===== ONBOARDING & USER =====
 const STEPS = 5;
