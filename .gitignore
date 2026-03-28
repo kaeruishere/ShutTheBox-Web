@@ -5,7 +5,7 @@ firestore-debug.log*
 ui-debug.log*
 
 # Config
-firebase-config.js
+public/firebase-config.js
 
 # IDEs
 .vscode/
