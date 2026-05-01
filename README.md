@@ -1,3 +1,13 @@
-📱 Proje Hakkında: ShutTheBox-Web
+# Shut The Box (Web)
 
-  Klasik Shut The Box kutu oyununun web versiyonu , Jet10 uygulamamda kullanmak için optimize edildi
+Klasik masa oyunu Shut The Box'ın tarayıcı üzerinden oynanabilen web versiyonu.
+
+## 🚀 Özellikler
+- Modern arayüz
+- Kurulum gerektirmeden oynama
+- Skor kaydı
+
+## 🛠️ Kullanılan Teknolojiler
+- HTML5
+- CSS3
+- JavaScript
